@@ -5,7 +5,8 @@ Repository to collect hometask from Polytech python study group
                 + номерслайда_название.py
                 + 06_aboutcalcs.py (пример)
         + Внутри файла:
-```def funname_номерзаданиянаслайде():
+```
+   def funname_номерзаданиянаслайде():
         pass
    #пример     
    def calculate_003():
