@@ -2,8 +2,8 @@
 Repository to collect hometask from Polytech python study group
  + Структура для проекта с домашним заданием:
 	+ Название проекта:
-        	+ номерслайда_название.py
-        	+ 06_aboutcalcs.py (пример)
+		+ номерслайда_название.py
+		+ 06_aboutcalcs.py (пример)
         + Внутри файла:
 ```
    def funname_номерзаданиянаслайде():
