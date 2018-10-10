@@ -13,7 +13,7 @@ Repository to collect hometask from Polytech python study group
         pass
 ```        
  + Cдать на гит:
-        + Fork на проекте пользователя https://github.com/nectostr/PYTHON100
+        + Fork на проекте пользователя https://github.com/nectostr/PYTHON100 своей ветке
         + Clone через git к себе на комьютер
 	+ Воссоздание структуры выше
 	+ Commit и push на github
