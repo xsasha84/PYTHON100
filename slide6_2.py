@@ -22,7 +22,7 @@ def dict5(slovo):
     d.update({i+len(d): d[i]+1 for i in range(len(d))})
     return ({i: d[i] for i in range((n - 1) * round(len(d) / 3), round(n * len(d) / 3))})
 
-if __name__ == '__slide6.2__':
+if __name__ == '__main__':
     slovo = input('Введите фамилию: ')
     print(dict1(slovo))
     print(dict2(slovo))

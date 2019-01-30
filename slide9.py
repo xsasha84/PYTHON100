@@ -45,7 +45,7 @@ def znak(a):
     otr = [i for i in a if i < 0]
     return pol, otr
 
-if __name__ == "__slide9__":
+if __name__ == "__main__":
     N = int(input('Введите N '))
     M = int(input('Введите M '))
     print(posledov(N, M))

@@ -12,7 +12,7 @@ def razr(chislo1):
 def palindrom(s):
     return (s == s[::-1])
 
-if __name__ == "__slide11__":
+if __name__ == "__main__":
     chislo1 = int(input('Введите число '))
     print(razr(chislo1))
     s = input('Введите строку ')

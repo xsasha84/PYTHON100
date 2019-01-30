@@ -7,5 +7,5 @@ def Test2(path):
         if os.path.isdir(rootDir):
             Test2(rootDir)
 
-if __name__ == "__slide14_6__":
+if __name__ == "__main__":
     print(Test2(path))

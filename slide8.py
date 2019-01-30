@@ -49,7 +49,7 @@ def beg5(km, s = 10):
         d += 1
     return d
 
-if __name__ == "__slide8__":
+if __name__ == "__main__":
     print(beg1(1000))
     print(beg2(1000))
     print(beg3(10))

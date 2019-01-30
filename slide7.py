@@ -26,7 +26,7 @@ def dlina(inp_predl):
             slov_dl[key] = 1
     return slov_dl
 
-if __name__ == "__slide7__":
+if __name__ == "__main__":
     print(stroka(5))
     print(lesenka(7))
     inp_str = input('Введите строку: ')
