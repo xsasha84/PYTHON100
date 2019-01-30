@@ -1,0 +1,39 @@
+import os
+path = '/Users/xsash/Desktop/Python/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder1/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/Folder3/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/Folder3/Folder4/'
+# os.mkdir(path)
+# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
+# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/Folder4/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder1/Folder3/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder1/Folder3/Folder4/'
+# os.mkdir(path)
+# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
+# path = '/Users/xsash/Desktop/Python/Folder1/Folder4/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder2/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder2/Folder3/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder2/Folder3/Folder4/'
+# os.mkdir(path)
+# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
+# path = '/Users/xsash/Desktop/Python/Folder2/Folder4/'
+# os.mkdir(path)
+# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
+# path = '/Users/xsash/Desktop/Python/Folder3/'
+# os.mkdir(path)
+# path = '/Users/xsash/Desktop/Python/Folder3/Folder4/'
+# os.mkdir(path)
+# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
+# path = '/Users/xsash/Desktop/Python/Folder4/'
+# os.mkdir(path)
+# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
