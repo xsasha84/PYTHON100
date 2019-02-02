@@ -1,39 +1,31 @@
 import os
-path = '/Users/xsash/Desktop/Python/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder1/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/Folder3/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/Folder3/Folder4/'
-# os.mkdir(path)
-# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
-# path = '/Users/xsash/Desktop/Python/Folder1/Folder2/Folder4/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder1/Folder3/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder1/Folder3/Folder4/'
-# os.mkdir(path)
-# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
-# path = '/Users/xsash/Desktop/Python/Folder1/Folder4/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder2/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder2/Folder3/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder2/Folder3/Folder4/'
-# os.mkdir(path)
-# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
-# path = '/Users/xsash/Desktop/Python/Folder2/Folder4/'
-# os.mkdir(path)
-# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
-# path = '/Users/xsash/Desktop/Python/Folder3/'
-# os.mkdir(path)
-# path = '/Users/xsash/Desktop/Python/Folder3/Folder4/'
-# os.mkdir(path)
-# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
-# path = '/Users/xsash/Desktop/Python/Folder4/'
-# os.mkdir(path)
-# open(os.path.join(path,'file1.txt'), 'w', encoding='utf-8')
+path = '/Python/'
+os.mkdir(path)
+for i in range(1, 5):
+    i = str(i)
+    path1 = path + 'Folder' + i + '/'
+    os.mkdir(path1)
+    for j in range(int(i) + 1, 5):
+        j = str(j)
+        path2 = path1 + 'Folder' + j + '/'
+        os.mkdir(path2)
+        for k in range(int(j) + 1, 5):
+            k = str(k)
+            path3 = path2 + 'Folder' + k + '/'
+            os.mkdir(path3)
+            for l in range(int(k) + 1, 5):
+                l = str(l)
+                path4 = path3 + 'Folder' + l + '/'
+                os.mkdir(path4)
+                open(os.path.join(path4, 'file1.txt'), 'w', encoding='utf-8')
+                path4 = ''
+            if int(j) == 3:
+                open(os.path.join(path3, 'file1.txt'), 'w', encoding='utf-8')
+            path3 = ''
+        if int(j) == 4 and int(i) != 1:
+            open(os.path.join(path2, 'file1.txt'), 'w', encoding='utf-8')
+        path2 = ''
+    if int(i) == 4:
+        open(os.path.join(path1, 'file1.txt'), 'w', encoding='utf-8')
+    path1 = ''
+    

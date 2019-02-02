@@ -1,5 +1,5 @@
 import os
-path = '/Users/xsash/Desktop/Python/'
+path = '/Python/'
 def Test2(path):
     for lists in os.listdir(path):
         rootDir = os.path.join(path, lists)
