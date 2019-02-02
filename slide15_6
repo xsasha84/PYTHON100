@@ -28,4 +28,3 @@ for i in range(1, 5):
     if int(i) == 4:
         open(os.path.join(path1, 'file1.txt'), 'w', encoding='utf-8')
     path1 = ''
-    
